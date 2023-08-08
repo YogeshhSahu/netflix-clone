@@ -1,0 +1,43 @@
+@media screen and (max-width:1000px) {
+    .navbar{
+        flex-direction: column;
+        height: 30vh;
+    }
+    
+    .menu ul{
+        display: block;
+    }
+    .btn { 
+        display: block; 
+    }
+.btn ul{
+    justify-content: center;
+}
+    button{
+        padding: 4px;
+        width:80px;
+
+    }
+     
+    .carouselimg img{
+        height: 30vh; 
+        margin-top: 15vh;
+        margin-right: 10vw;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .logo{ 
+
+        justify-content: center;
+    }
+    .carousel{
+        height: auto;
+    }
+    .foot{
+        margin-top: 3px;
+    }
+    .cards{
+        display: block;
+    }
+}

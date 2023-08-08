@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.navbar {
+    background-color: black;
+    height: 55px;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center; /* Add this line */
+}
+.logo {
+    display: flex;
+    align-items: center; /* Add this line */
+}
+
+
+ 
+.menu ul {
+    display: flex;
+    align-items: center; 
+    width: 70vw;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 80px;
+}
+
+.btn ul li{
+    display:inline-block;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+button{
+    padding: 4px;
+}
+
+.btn ul {
+    align-content: center;
+    display:flex;
+    width: 13vw;
+
+}
+
+.carousel{
+    background-color: black;
+    display: flex; 
+    overflow: hidden;
+    height: 90vh;
+}
+.carousel img{
+    border-radius: 20px;  
+    margin-left:20vw ;
+    margin-top: 10vh;
+    margin-bottom: 20vw;
+    height: 70vh;
+}
+.content{
+    color: white; 
+    margin-top: 15vh;
+    margin-left:6vw ;
+    width: 35vw;
+    font-size:30px;
+}
+
+.card{
+    display: flex;
+    background-color:  black;
+    color: rgb(254, 7, 7);
+    margin:20px 0 10px 3vw;
+    font-size:30px;
+}
+.card-item{ 
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 4px 0 4px 3vw;
+    display:inline-block
+    
+} 
+.cards{
+    border: 2px solid white; 
+}
+
+.cards img{
+    width: 20vw; 
+}
+
+section{
+    background-color: black;
+    padding-top:3vh ;
+}
+
+.foot{ 
+    background-color:black ; 
+    color: white;
+    text-align: center; 
+    padding-top: 3vh;
+}
+footer{
+    padding: 3vh 0 3vh 0;
+    background-color: black;
+}
